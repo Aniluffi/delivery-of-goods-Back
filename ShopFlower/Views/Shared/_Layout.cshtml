@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ShopFlowers</title>
+    <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/InfStyle.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="header-top">
+        <div class="logo">Мир цветов</div>
+        <div class="button-header">
+            <button class="button">Войти</button>
+    </div>
+    </div>
+
+        <img class="img-header" src="~/img/photo_2024-11-08_16-54-11.jpg"/> 
+
+        <div id="header-bottom">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#" class="kontact">Контакты</a></li>
+                    <li><a href="#">Страны</a></li>
+                    <li><a href="#">Услуги</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+            @RenderBody()
+    </div>
+    <script src="~/js/JavaScript.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $('.kontact').on('click', function () {
+                // Выполняем AJAX-запрос к методу контроллера
+                $.ajax({
+                    url: '@Url.Action("AboutPartial", "Home")',
+                    type: 'GET',
+                    success: function (data) {
+                        // Вставляем полученный HTML в контейнер
+                        $('.container').html(data);
+                    },
+                    error: function () {
+                        alert("Не удалось загрузить данные.");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
