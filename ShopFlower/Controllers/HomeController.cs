@@ -18,9 +18,9 @@ namespace ShopFlower.Controllers
             return View();
         }
 
-        public IActionResult Kontact()
+        public ActionResult Form()
         {
-            return PartialView("Kontact");
+            return PartialView();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

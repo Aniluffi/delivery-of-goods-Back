@@ -18,5 +18,11 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+/*    display: flex;
+    flex-direction: column;
+    height: 100%;*/
+}
+.single_slider{
+    background-image: url("~/img/slider/slider9.jpg");
 }
