@@ -21,12 +21,14 @@
     <None Include="wwwroot\img\s-product\.DS_Store" />
     <None Include="wwwroot\img\service\.DS_Store" />
     <None Include="wwwroot\img\slider\.DS_Store" />
-    <None Include="wwwroot\js\vendor\jquery-3.4.1.min.js" />
-    <None Include="wwwroot\js\vendor\modernizr-3.7.1.min.js" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopFlower.Domain\ShopFlower.Domain.csproj" />
   </ItemGroup>
 
 </Project>

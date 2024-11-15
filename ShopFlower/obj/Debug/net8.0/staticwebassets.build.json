@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4qWuMUcUDbJkbBdLRaOX52aq0GyToSQOpeJuCvvNzEk=",
+  "Hash": "fDxSUMduAYsXERmC1QdiK39XVgJb7tk52i8Ukt9a86A=",
   "Source": "ShopFlower",
   "BasePath": "_content/ShopFlower",
   "Mode": "Default",
@@ -1594,25 +1594,6 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\img\\photo_2024-11-08_16-54-11.jpg",
-      "SourceId": "ShopFlower",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\",
-      "BasePath": "_content/ShopFlower",
-      "RelativePath": "img/photo_2024-11-08_16-54-11.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\photo_2024-11-08_16-54-11.jpg"
-    },
-    {
       "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\img\\product\\product1.jpg",
       "SourceId": "ShopFlower",
       "SourceType": "Discovered",
@@ -2297,25 +2278,6 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\home.Load.js",
-      "SourceId": "ShopFlower",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\",
-      "BasePath": "_content/ShopFlower",
-      "RelativePath": "js/home.Load.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\home.Load.js"
-    },
-    {
       "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\isotope.pkgd.min.js",
       "SourceId": "ShopFlower",
       "SourceType": "Discovered",
@@ -2333,25 +2295,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\isotope.pkgd.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\JavaScript.js",
-      "SourceId": "ShopFlower",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\",
-      "BasePath": "_content/ShopFlower",
-      "RelativePath": "js/JavaScript.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\JavaScript.js"
     },
     {
       "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\jquery.countdown.js",
@@ -2523,25 +2466,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\popper.js"
-    },
-    {
-      "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\site.js",
-      "SourceId": "ShopFlower",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\",
-      "BasePath": "_content/ShopFlower",
-      "RelativePath": "js/site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\slick.min.js",

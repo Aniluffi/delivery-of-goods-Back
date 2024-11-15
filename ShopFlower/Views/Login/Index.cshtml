@@ -26,14 +26,14 @@
             <div class="col-lg-6 col-md-6">
                 <div class="account_form">
                     <h2>login</h2>
-                    <form action="#">
-                        <p>
-                            <label>Username or email <span>*</span></label>
-                            <input type="text">
+                    <form action="#" class="form form_sign_in">
+                        <p class ="login_sign_in">
+                            <label >Login<span>*</span></label>
+                            <input type="text" placeholder=" ">
                         </p>
-                        <p>
-                            <label>Passwords <span>*</span></label>
-                            <input type="password">
+                        <p class ="password_sign_in">
+                            <label >Passwords <span>*</span></label>
+                            <input type="password" placeholder=" ">
                         </p>
                         <div class="login_submit">
                             <a href="#">Lost your password?</a>
@@ -41,10 +41,10 @@
                                 <input id="remember" type="checkbox">
                                 Remember me
                             </label>
-                            <button type="submit">login</button>
+                            <button type="submit" class="login_btn">login</button>
 
                         </div>
-
+                        <div id="error-messages-singin"></div>
                     </form>
                 </div>
             </div>
@@ -53,13 +53,21 @@
             <div class="col-lg-6 col-md-6">
                 <div class="account_form register">
                     <h2>Register</h2>
-                    <form action="#">
+                    <form action="#" class="form form_sign_up">
                         <p>
-                            <label>Email address <span>*</span></label>
+                            <label id="sign_up_login">Login<span>*</span></label>
                             <input type="text">
                         </p>
                         <p>
-                            <label>Passwords <span>*</span></label>
+                            <label id="sign_up_email">Email address <span>*</span></label>
+                            <input type="email">
+                        </p>
+                        <p>
+                            <label id="sign_up_password">Password<span>*</span></label>
+                            <input type="password">
+                        </p>
+                        <p>
+                            <label id="sign_up_confirm_password">Passwords Confirm<span>*</span></label>
                             <input type="password">
                         </p>
                         <div class="login_submit">

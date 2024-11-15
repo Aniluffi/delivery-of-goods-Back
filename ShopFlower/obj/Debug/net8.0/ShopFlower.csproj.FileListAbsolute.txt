@@ -257,3 +257,5 @@ C:\Users\aleks\Desktop\pra\ShopFlower\bin\Debug\net8.0\runtimes\win\lib\net7.0\S
 C:\Users\aleks\Desktop\pra\ShopFlower\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\aleks\Desktop\pra\ShopFlower\obj\Debug\net8.0\ShopFlower.csproj.AssemblyReference.cache
 C:\Users\aleks\Desktop\pra\ShopFlower\obj\Debug\net8.0\ShopFlower.csproj.Up2Date
+C:\Users\aleks\Desktop\pra\ShopFlower\bin\Debug\net8.0\ShopFlower.Domain.dll
+C:\Users\aleks\Desktop\pra\ShopFlower\bin\Debug\net8.0\ShopFlower.Domain.pdb

@@ -329,10 +329,6 @@
       "PackagePath": "staticwebassets\\img\\logo\\logo.png"
     },
     {
-      "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\img\\photo_2024-11-08_16-54-11.jpg",
-      "PackagePath": "staticwebassets\\img\\photo_2024-11-08_16-54-11.jpg"
-    },
-    {
       "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\img\\product\\product1.jpg",
       "PackagePath": "staticwebassets\\img\\product\\product1.jpg"
     },
@@ -473,16 +469,8 @@
       "PackagePath": "staticwebassets\\img\\slider\\slider9.jpg"
     },
     {
-      "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\JavaScript.js",
-      "PackagePath": "staticwebassets\\js\\JavaScript.js"
-    },
-    {
       "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\home.Load.js",
-      "PackagePath": "staticwebassets\\js\\home.Load.js"
     },
     {
       "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\isotope.pkgd.min.js",
@@ -523,10 +511,6 @@
     {
       "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\popper.js",
       "PackagePath": "staticwebassets\\js\\popper.js"
-    },
-    {
-      "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\wwwroot\\js\\slick.min.js",
