@@ -17,71 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShopFlower
 build_property.RootNamespace = ShopFlower
-build_property.ProjectDir = C:\Users\aleks\Desktop\pra\ShopFlower\
+build_property.ProjectDir = C:\Users\viacheslavn\Desktop\Shop\ShopFlower\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aleks\Desktop\pra\ShopFlower
+build_property.MSBuildProjectDirectory = C:\Users\viacheslavn\Desktop\Shop\ShopFlower
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/About/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Cart/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Contact/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Home/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Login/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/MyAccount/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/MyAccount/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlBY2NvdW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Service/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Shared/Error.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Shop/IconShop.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Shop/IconShop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJY29uU2hvcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Shop/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Shop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/WishList/Index.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/WishList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaExpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/_ViewImports.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/_ViewStart.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleks/Desktop/pra/ShopFlower/Views/Shared/_Layout.cshtml]
+[C:/Users/viacheslavn/Desktop/Shop/ShopFlower/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3rb5dd0vdh

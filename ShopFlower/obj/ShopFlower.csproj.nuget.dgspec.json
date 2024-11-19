@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\ShopFlower.csproj": {}
+    "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower\\ShopFlower.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower.Domain\\ShopFlower.Domain.csproj": {
+    "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower.Domain\\ShopFlower.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower.Domain\\ShopFlower.Domain.csproj",
-        "projectName": "ShopFlower.Domain",
-        "projectPath": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower.Domain\\ShopFlower.Domain.csproj",
-        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower.Domain\\obj\\",
+        "projectUniqueName": "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower.Domain\\ShopFlower.Data.csproj",
+        "projectName": "ShopFlower.Data",
+        "projectPath": "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower.Domain\\ShopFlower.Data.csproj",
+        "packagesPath": "C:\\Users\\viacheslavn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\viacheslavn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\ShopFlower.csproj": {
+    "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower\\ShopFlower.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\ShopFlower.csproj",
+        "projectUniqueName": "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower\\ShopFlower.csproj",
         "projectName": "ShopFlower",
-        "projectPath": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\ShopFlower.csproj",
-        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower\\obj\\",
+        "projectPath": "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower\\ShopFlower.csproj",
+        "packagesPath": "C:\\Users\\viacheslavn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\viacheslavn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +109,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower.Domain\\ShopFlower.Domain.csproj": {
-                "projectPath": "C:\\Users\\aleks\\Desktop\\pra\\ShopFlower.Domain\\ShopFlower.Domain.csproj"
+              "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower.Domain\\ShopFlower.Data.csproj": {
+                "projectPath": "C:\\Users\\viacheslavn\\Desktop\\Shop\\ShopFlower.Domain\\ShopFlower.Data.csproj"
               }
             }
           }
@@ -109,6 +137,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -133,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
