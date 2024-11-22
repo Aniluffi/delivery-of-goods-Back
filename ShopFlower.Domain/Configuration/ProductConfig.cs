@@ -15,6 +15,9 @@ namespace ShopFlower.Data.Configuration
 
             builder.HasMany(s => s.Carts)
                .WithMany(s => s.Products);
+
+            builder.HasMany(c => c.Orders)
+                .WithMany(c => c.Products);
         }
     }
 }

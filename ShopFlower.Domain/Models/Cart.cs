@@ -9,6 +9,7 @@ namespace ShopFlower.Data.Models
     public class Cart
     {
         public int Id { get; set; }
+        public int TotalSum { get; set; }
         public List<Product> Products { get; set; } = new List<Product>();
         public List<User> Users { get; set; } = new List<User>(); 
     }

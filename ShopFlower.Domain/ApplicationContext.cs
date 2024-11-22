@@ -6,12 +6,14 @@ namespace ShopFlower.Data
 {
     public class ApplicationContext : DbContext
     {
-        DbSet<Cart> Carts { get; set; }
-        DbSet<Product> Products { get; set; }
-        DbSet<Roles> Roles { get; set; }
-        DbSet<RolesUser> RolesUsers { get; set; }
-        DbSet<User> Users { get; set; }
-        DbSet<WishList> WishLists { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<RolesUser> RolesUsers { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<WishList> WishLists { get; set; }
+        public DbSet<Addresses> Addresss { get; set; }
+        public DbSet<Orders> Orders { get; set; }
 
         public ApplicationContext() { }
 

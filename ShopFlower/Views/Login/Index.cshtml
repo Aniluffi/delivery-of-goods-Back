@@ -1,6 +1,8 @@
 ﻿@{
     ViewBag.Title = "Login";
 }
+@model LoginRegistrView
+
 <!--breadcrumbs area start-->
 <div class="breadcrumbs_area" style="padding: 100px 0px">
     <div class="container">
@@ -26,14 +28,16 @@
             <div class="col-lg-6 col-md-6">
                 <div class="account_form">
                     <h2>login</h2>
-                    <form action="#" class="form form_sign_in">
+                    <form asp-action="Login" asp-controller="Login" class="form form_sign_in">
                         <p class ="login_sign_in">
                             <label >Login<span>*</span></label>
-                            <input type="text" placeholder=" ">
+                            <span class="alert-danger" asp-validation-for="login.Email"></span>
+                            <input type="text" placeholder=" " asp-for="login.Email">
                         </p>
                         <p class ="password_sign_in">
                             <label >Passwords <span>*</span></label>
-                            <input type="password" placeholder=" ">
+                            <span class="text-danger" asp-validation-for="login.Password"></span>
+                            <input type="password" placeholder=" " asp-for="login.Password">
                         </p>
                         <div class="login_submit">
                             <a href="#">Lost your password?</a>
@@ -42,9 +46,7 @@
                                 Remember me
                             </label>
                             <button type="submit" class="login_btn">login</button>
-
                         </div>
-                        <div id="error-messages-singin"></div>
                     </form>
                 </div>
             </div>
@@ -53,22 +55,30 @@
             <div class="col-lg-6 col-md-6">
                 <div class="account_form register">
                     <h2>Register</h2>
-                    <form action="#" class="form form_sign_up">
+                    <form asp-action="Registr" asp-controller="Login" method="post" class="form form_sign_up">
                         <p>
+                            
                             <label id="sign_up_login">Login<span>*</span></label>
-                            <input type="text">
+                            <span class="text-danger" asp-validation-for="registr.Login"></span>
+                            <input type="text" asp-for="registr.Login">
                         </p>
                         <p>
+                            
                             <label id="sign_up_email">Email address <span>*</span></label>
-                            <input type="email">
+                            <span class="text-danger" asp-validation-for="registr.Email"></span>
+                            <input type="email" asp-for="registr.Email">
                         </p>
                         <p>
+                            
                             <label id="sign_up_password">Password<span>*</span></label>
-                            <input type="password">
+                            <span class="text-danger" asp-validation-for="registr.Password"></span>
+                            <input type="password" asp-for="registr.Password">
                         </p>
                         <p>
+                            
                             <label id="sign_up_confirm_password">Passwords Confirm<span>*</span></label>
-                            <input type="password">
+                            <span class="text_danger" asp-validation-for="registr.ConfirmPassword"></span>
+                            <input type="password" asp-for="registr.ConfirmPassword">
                         </p>
                         <div class="login_submit">
                             <button type="submit">Register</button>

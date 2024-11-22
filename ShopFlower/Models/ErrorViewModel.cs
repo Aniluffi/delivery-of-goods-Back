@@ -1,4 +1,4 @@
-namespace ShopFlower.Models
+﻿namespace ShopFlower.Models
 {
     public class ErrorViewModel
     {

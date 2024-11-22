@@ -1,7 +1,10 @@
 ﻿
 @{
     ViewBag.Title = "MyAccount";
+    var email = User.FindFirst("UserEmail")?.Value;
+    var login = User.FindFirst("UserLogin")?.Value;
 }
+
 <!--breadcrumbs area start-->
 <div class="breadcrumbs_area" style="padding: 100px 0px">
     <div class="container">
@@ -31,8 +34,10 @@
                             <li> <a href="#orders" data-toggle="tab" class="nav-link">Orders</a></li>
                             <li><a href="#address" data-toggle="tab" class="nav-link">Addresses</a></li>
                             <li>
-                                <a href="#account-details" data-toggle="tab" class="nav-link">Account details</a>
+                                <a href="#account-details" data-toggle="tab" class="nav-link">Edit Account</a>
                             </li>
+                            <li><a href="#info" data-toggle="tab" class="nav-link">My Informationt</a></li>
+                            <li><a href="#my_shops" data-toggle="tab" class="nav-link">My Shops</a></li>
                             <li><a href="/login/index" class="nav-link">logout</a></li>
                         </ul>
                     </div>
@@ -40,14 +45,16 @@
                 <div class="col-sm-12 col-md-9 col-lg-9">
                     <!-- Tab panes -->
                     <div class="tab-content dashboard_content">
-                        <div class="tab-pane fade show active" id="dashboard">
-                            <h3>Dashboard </h3>
-                            <p>
-                                From your account dashboard. you can easily check &amp; view your <a href="#">
-                                    recent
-                                    orders
-                                </a>, manage your <a href="#">shipping and billing addresses</a> and <a href="#">Edit your password and account details.</a>
-                            </p>
+                        <div class="tab-pane fade show active" id="info">
+                            <h3>My Information </h3>
+                            <div id="Name"><p>Name: </p></div>
+                            <div id="SecondName"><p>Second Name:  </p></div>
+                            <div id="Email">
+                                
+                                    Email: @email;
+                            </div>
+                            <div id="Login"><p>Login: @login; </p></div>
+                            <div id="BirthOfDay"><p>Birth Of Day: </p></div>
                         </div>
                         <div class="tab-pane fade" id="orders">
                             <h3>Orders</h3>
@@ -81,35 +88,13 @@
                                 </table>
                             </div>
                         </div>
-                        <!--<div class="tab-pane fade" id="downloads">
+                        <div class="tab-pane fade" id="my_shops">
                             <h3>Downloads</h3>
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Product</th>
-                                            <th>Downloads</th>
-                                            <th>Expires</th>
-                                            <th>Download</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Shopnovilla - Free Real Estate PSD Template</td>
-                                            <td>May 10, 2018</td>
-                                            <td><span class="danger">Expired</span></td>
-                                            <td><a href="#" class="view">Click Here To Download Your File</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Organic - ecommerce html template</td>
-                                            <td>Sep 11, 2018</td>
-                                            <td>Never</td>
-                                            <td><a href="#" class="view">Click Here To Download Your File</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>-->
+                           <button href="#" class="btn_create_shop">Create Shop</button>
+                           <div class="list_shop">
+
+                           </div>
+                        </div>
                         <div class="tab-pane" id="address">
                             <p>The following addresses will be used on the checkout page by default.</p>
                             <h4 class="billing-address">Billing address</h4>
@@ -126,7 +111,7 @@
                             </address>
                         </div>
                         <div class="tab-pane fade" id="account-details">
-                            <h3>Account details </h3>
+                            <h3>Edit Account</h3>
                             <div class="login">
                                 <div class="login_form_container">
                                     <div class="account_login_form">

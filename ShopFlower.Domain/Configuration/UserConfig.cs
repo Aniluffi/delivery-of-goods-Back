@@ -14,16 +14,28 @@ namespace ShopFlower.Data.Configuration
             builder
                 .HasOne(s => s.Cart)
                 .WithMany(s => s.Users)
-                .HasForeignKey(s => s.Id);
+                .OnDelete(DeleteBehavior.SetNull)
+                .HasForeignKey(s => s.CartId);
 
             builder.HasOne(c => c.WishList)
                 .WithMany(c => c.Users)
-                .HasForeignKey(c => c.Id);
+                .OnDelete(DeleteBehavior.SetNull)
+                .HasForeignKey(c => c.WishListId);
 
             builder.HasMany(s => s.Roles)
                 .WithOne(s => s.User)
+                .OnDelete(DeleteBehavior.SetNull)
                 .HasForeignKey(s => s.UserId);
 
+            builder.HasOne(c => c.Addresses)
+                .WithMany(c => c.Users)
+                .OnDelete(DeleteBehavior.SetNull)
+                .HasForeignKey(c => c.AddressesId);
+
+            builder.HasOne(j => j.Orders)
+                .WithMany(c => c.Users)
+                .OnDelete(DeleteBehavior.SetNull)
+                .HasForeignKey(c => c.OrderId);
         }
     }
 }
